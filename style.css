@@ -1,11 +1,12 @@
 /* ───────────────────────────────
-   Custom Properties
+  Custom Properties
 ─────────────────────────────── */
 :root {
   --color-primary: #0a5c41;
   --color-primary-light: #0e7a57;
   --color-primary-dark: #074532;
   --color-accent: #c8f0e0;
+  --color-highlight: #f0ff4d;
   --color-bg: #faf9f7;
   --color-bg-alt: #f0eeeb;
   --color-surface: #ffffff;
@@ -176,6 +177,17 @@ li {
   color: var(--color-primary);
 }
 
+.text-accent-mark-light {
+  background-color: var(--color-accent);
+  color: var(--color-primary-dark);
+}
+
+.text-highlight {
+  background-color: var(--color-highlight);
+  color: var(--color-text);
+  font-style: normal;
+}
+
 /* ───────────────────────────────
   Layout
 ─────────────────────────────── */
@@ -260,7 +272,8 @@ section {
   Hero
 ─────────────────────────────── */
 .hero {
-  min-height: 100svh;
+  /* Account for fixed header padding so the section doesn't exceed the viewport height */
+  min-height: calc(100svh - var(--header-height));
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -340,6 +353,10 @@ section {
   /* fill: var(--color-surface); */
 }
 
+.hero svg.text-draw text.line2-mobile {
+  display: none;
+}
+
 @keyframes drawText {
   70% {
     fill: transparent;
@@ -363,9 +380,11 @@ section {
 .hero-description {
   color: var(--color-surface);
   max-width: 600px;
+  margin-bottom: var(--space-sm);
+}
+
+.hero-description:last-of-type {
   margin-bottom: var(--space-lg);
-  /* background-color: var(--color-accent);
-  color: var(--color-primary-dark); */
 }
 
 .scroll-hint {
@@ -769,7 +788,41 @@ section {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 844px) {
+  section {
+    padding-block: var(--space-xl);
+  }
+
+  .hero-content {
+    padding-top: var(--space-lg);
+  }
+
+  .hero {
+    justify-content: flex-start;
+  }
+
+  .hero svg.text-draw {
+    width: 100%;
+    max-width: 520px;
+    height: 140px;
+  }
+
+  .hero svg.text-draw text.line2-desktop {
+    display: none;
+  }
+
+  .hero svg.text-draw text.line2-mobile {
+    display: inline;
+  }
+
+  .hero-description:last-of-type {
+    margin-bottom: var(--space-md);
+  }
+
+  .scroll-hint {
+    bottom: var(--space-md);
+  }
+
   .nav-links {
     display: none;
     position: absolute;
