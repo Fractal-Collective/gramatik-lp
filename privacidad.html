@@ -3,28 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="GramatiK — Diseño, código y contenido. Estudio creativo especializado en diseño digital, desarrollo web y estrategia de contenido.">
+  <meta name="description" content="Política de privacidad — GramatiK. Información sobre cómo recopilamos, usamos y protegemos tus datos personales.">
   <meta name="theme-color" content="#0a5c41">
-  <title>GramatiK — Diseño, código y contenido</title>
+  <title>Política de privacidad — GramatiK</title>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+
   <!-- Styles -->
   <link rel="stylesheet" href="style.css">
+
+  <style>
+    .privacy-page {
+      padding: calc(var(--header-height) + var(--space-xl)) 0 var(--space-2xl);
+      min-height: 100vh;
+    }
+
+    .privacy-content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 var(--space-md);
+    }
+
+    .privacy-content h1 {
+      margin-bottom: var(--space-md);
+    }
+
+    .privacy-content .last-updated {
+      color: var(--color-text-light);
+      font-size: 0.875rem;
+      margin-bottom: var(--space-xl);
+      display: block;
+    }
+
+    .privacy-content h2 {
+      margin-top: var(--space-xl);
+      margin-bottom: var(--space-md);
+      color: var(--color-primary);
+    }
+
+    .privacy-content h3 {
+      margin-top: var(--space-lg);
+      margin-bottom: var(--space-sm);
+    }
+
+    .privacy-content p {
+      margin-bottom: var(--space-md);
+    }
+
+    .privacy-content ul {
+      margin-bottom: var(--space-md);
+      padding-left: var(--space-lg);
+    }
+
+    .privacy-content li {
+      margin-bottom: var(--space-sm);
+    }
+
+    .privacy-content strong {
+      color: var(--color-text);
+      font-weight: 500;
+    }
+
+    .privacy-content a {
+      text-decoration: underline;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: var(--space-lg);
+      font-size: 0.875rem;
+      color: var(--color-primary);
+      transition: transform 0.2s ease;
+    }
+
+    .back-link:hover {
+      transform: translateX(-4px);
+    }
+
+    .back-link svg {
+      width: 16px;
+      height: 16px;
+    }
+  </style>
 </head>
 <body>
 
   <!-- ─── Header ─── -->
   <header class="site-header">
     <div class="container">
-      <a href="#" aria-label="GramatiK — Inicio">
+      <a href="index.html" aria-label="GramatiK — Inicio">
         <svg class="logo" viewBox="0 0 620.71 138.02" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M28.29,83.3c-14.31-.43-23.15-5.15-26.5-14.15-1.2-3.11-1.8-6.77-1.8-10.99s.68-7.86,2.05-10.95,3.29-5.68,5.78-7.79c4.93-4.26,11.75-6.68,20.47-7.25v7.11c-2.82.48-4.79,2.08-5.89,4.81-1.05,2.63-1.58,6.97-1.58,13s.55,10.63,1.65,13.79,3.04,5.05,5.82,5.67v6.75ZM7.76,104.05c-4.84-1.53-7.25-4.16-7.25-7.9,0-3.97,2.82-7.95,8.47-11.92l8.19,2.59c-1.87,1.44-2.8,4.07-2.8,7.9,20.15,0,34.01,1.58,41.58,4.74,3.83,1.58,6.49,3.6,7.97,6.07s2.23,5.4,2.23,8.8-.85,6.51-2.55,9.34c-1.7,2.82-3.99,5.27-6.86,7.32-5.98,4.31-13.33,6.65-22.05,7.04v-6.97c6.85-.29,11.25-2.83,13.21-7.61.57-1.39.86-2.87.86-4.45,0-2.87-1.46-5.24-4.38-7.11s-6.53-2.8-10.84-2.8c-6.7,0-11.56.22-14.58.65-.72,1.77-1.08,3.73-1.08,5.89v4.24c0,3.11.74,5.63,2.23,7.54,1.48,1.91,4.21,3.09,8.19,3.52v7.04c-11.25-.62-18.74-4.95-22.48-13-1.29-2.78-1.94-6.15-1.94-10.13s1.29-7.57,3.88-10.77ZM56.66,27.86c-3.06,0-4.6,1.91-4.6,5.74,0,1.91.25,3.16.75,3.73s1.03,1.08,1.58,1.51,1.54,1.34,2.98,2.73c3.06,3.02,4.6,8.04,4.6,15.08,0,7.71-2.68,13.98-8.04,18.81-5.12,4.64-11.54,7.2-19.24,7.68v-6.82c2.44-.81,4.13-2.78,5.06-5.89s1.4-7.49,1.4-13.14-.48-9.89-1.44-12.71-2.63-4.6-5.03-5.31v-7.11c4.21.14,7.68.69,10.41,1.65,0-6.51,3.04-10.87,9.12-13.07,1.91-.72,4.06-1.08,6.43-1.08s4.4.3,6.1.9,3.1,1.42,4.2,2.48c2.11,1.96,3.16,4.48,3.16,7.54s-.83,5.36-2.48,6.89-3.82,2.3-6.5,2.3-4.85-.74-6.5-2.23-2.48-3.38-2.48-5.67c0-.86.13-1.62.39-2.26s.39-1.1.39-1.36-.1-.39-.29-.39Z" fill="#0a5c41"/>
           <path d="M106.28,33.61c1.01,11.3,1.51,24.01,1.51,38.13v21.26c0,2.54,1.17,4.33,3.52,5.39,1.05.48,2.21.91,3.48,1.29s2.53.89,3.77,1.51v4.6h-41.58v-4.6c.91-.62,1.91-1.08,3.02-1.36s2.13-.62,3.09-1.01c2.25-.91,3.38-2.61,3.38-5.1v-47.61c0-2.63-1.13-4.38-3.38-5.24-.96-.34-1.99-.62-3.09-.86s-2.11-.69-3.02-1.36v-5.03h29.3ZM120.5,46.1c-2.2,0-4.45,2.47-6.75,7.4l-.43-13.72c3.93-5.07,8.95-7.61,15.08-7.61,3.59,0,6.65,1.32,9.19,3.95,2.39,2.49,3.59,5.39,3.59,8.69,0,3.49-1.01,6.44-3.02,8.83-2.11,2.54-4.79,3.81-8.04,3.81s-5.82-1.22-7.54-3.66c-1.39-2.06-2.08-4.62-2.08-7.68Z" fill="#0a5c41"/>
@@ -43,239 +115,148 @@
           <span></span>
         </button>
         <ul class="nav-links" role="list">
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#proceso">Proceso</a></li>
-          <!-- <li><a href="#proyectos">Proyectos</a></li> -->
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="index.html#servicios">Servicios</a></li>
+          <li><a href="index.html#proceso">Proceso</a></li>
+          <li><a href="index.html#proyectos">Proyectos</a></li>
+          <li><a href="index.html#contacto">Contacto</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main class="privacy-page">
+    <div class="privacy-content">
+      <a href="index.html" class="back-link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+        Volver al inicio
+      </a>
 
-    <!-- ─── Hero ─── -->
-    <section class="hero" id="inicio">
-      <div class="container hero-content">
-        <div>
-          <span class="badge">Estudio creativo</span>
-          <!-- <h1>Diseño, <em>código</em><br>y contenido</h1> -->
-          <svg class="text-draw">
-            <text x="0" y="20" text-anchor="start" dominant-baseline="hanging">Diseño, código</text>
-            <text x="4" y="90" text-anchor="start" dominant-baseline="hanging">y contenido</text>
-          </svg>
-          <!-- <p class="hero-tagline">Donde la forma encuentra su función,<br>y cada píxel tiene propósito.</p> -->
-          <p class="hero-description">
-            En <strong class="text-accent">Gramatik</strong>, diseñamos la estrategia de posicionamiento digital que sirve como eje central para articular tu diseño, código y contenido. Creamos soluciones donde la tecnología y la creatividad no son solo funcionales, sino motores de crecimiento real.
-          </p>
-          <a href="#contacto" class="button accent">
-            Hablemos
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-          </a>
-        </div>
-        <canvas id="mat" class="cutting-mat"></canvas>
-      </div>
-      <div class="scroll-hint" aria-hidden="true">
-        <span>Scroll</span>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>
-      </div>
-    </section>
+      <span class="badge">Legal</span>
+      <h1>Política de privacidad</h1>
+      <span class="last-updated">Última actualización: 12 de febrero de 2026</span>
 
-    <!-- ─── Servicios ─── -->
-    <section class="servicios" id="servicios">
-      <div class="container">
-        <div class="section-header">
-          <span class="badge">01 — Servicios</span>
-          <h2>Lo que hacemos</h2>
-        </div>
-        <div class="services-grid">
-          <article class="service-card">
-            <span class="service-number">01.</span>
-            <h3>Diseño (Branding, UI/UX)</h3>
-            <p>
-              Interfaces, sistemas de diseño y experiencias visuales que
-              equilibran estética y usabilidad. Desde la identidad de marca
-              hasta el último detalle de interacción.
-            </p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">02.</span>
-            <h3>Código</h3>
-            <div>
-              <ul>
-                <li><h4>Desarrollo Web & E-commerce:</h4> Creamos sitios corporativos y tiendas virtuales de alto rendimiento —con especialidad en Shopify— diseñados para ser la base de la memoria del cliente y optimizados para la conversión.</li>
-                <li><h4>Apps Móviles:</h4> Diseñamos y desarrollamos aplicaciones móviles a la medida que se adaptan a las necesidades específicas de tu mercado, garantizando una experiencia de usuario (UX) fluida y profesional.</li>
-                <li><h4>Software a la Medida:</h4> Desarrollamos sistemas que permiten la sincronización de procesos internos en tiempo real, facilitando el control de clientes y la operación eficiente de tu empresa.</li>
-                <li><h4>Chatbots Inteligentes (Web, WhatsApp, Instagram y Messenger):</h4> Implementamos soluciones de automatización a la medida que integran tus canales de comunicación. Como parte de nuestra "fábrica de soluciones", estos bots aseguran que la atención a tus clientes sea inmediata y efectiva, convirtiendo cada interacción en una oportunidad de negocio.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="service-card">
-            <span class="service-number">03.</span>
-            <h3>Contenido</h3>
-            <p>
-              Narrativas que comunican con claridad. Definimos la voz,
-              el tono y la estructura del contenido para que cada palabra, diseño, ilustración, fotografía o video trabaje a favor de tus objetivos.
-            </p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">04.</span>
-            <h3>Estrategia</h3>
-            <p>
-              Este es nuestro servicio insignia, más que un plan estático, diseñamos una estrategia de posicionamiento digital a la medida que funciona como el motor articulador de tus necesidades.
-            </p>
-            <p> 
-              Nuestra visión es integral y transformadora: desarrollamos un ecosistema donde cada canal alimenta a los demás —logrando que el SEO orgánico potencie tu marca y las redes sociales eduquen a tu cliente— permitiendo que se logre un mayor posicionamiento. Nos aseguramos de que la tecnología y la creatividad no sean solo piezas aisladas, sino subproductos de una estrategia pensada para un crecimiento constante, orgánico y profesional.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
+      <p>
+        En <strong>GramatiK</strong>, nos tomamos muy en serio la privacidad de nuestros usuarios y clientes. 
+        Esta Política de Privacidad describe cómo recopilamos, usamos, compartimos y protegemos tu información 
+        personal cuando visitas nuestro sitio web o utilizas nuestros servicios.
+      </p>
 
-    <!-- ─── Proceso ─── -->
-    <section class="proceso" id="proceso">
-      <div class="container">
-        <div class="proceso-left">
-          <div class="section-header">
-            <span class="badge">02 — Proceso</span>
-            <h2>Cómo trabajamos</h2>
-          </div>
-          <p>
-            Nuestro proceso es iterativo, colaborativo y transparente, cada fase se construye sobre la anterior.
-            En <strong class="text-accent-dark">Gramatik</strong>, no trabajamos con procesos aislados; operamos como una fábrica de soluciones donde cada etapa es un subproducto de una visión estratégica superior.
-          </p>
-        </div>
-        <div class="proceso-steps">
-          <div class="step">
-            <div class="step-marker">01</div>
-            <div class="step-content">
-              <h3>Descubrimiento</h3>
-              <p>Entendemos tu visión, tus usuarios y el contexto del mercado. Investigamos, preguntamos y escuchamos antes de iniciar.</p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step-marker">02</div>
-            <div class="step-content">
-              <h3>Diagnóstico y Auditoría Real</h3>
-              <p>El primer paso de nuestra consultoría es realizar una auditoría de proyectos digitales profunda. No nos conformamos con métricas superficiales; obtenemos un diagnóstico real de tu marca para identificar las oportunidades de posicionamiento que otros ignoran.</p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step-marker">03</div>
-            <div class="step-content">
-              <h3>El Corazón del Proyecto: Diseño de Estrategia </h3>
-              <p>Este es nuestro fuerte y el servicio más importante que ofrecemos. Diseñamos una estrategia de posicionamiento digital a la medida que articula tus necesidades de diseño, código y contenido. Para nosotros, la estrategia no es un plan estático, sino la herramienta para que tu marca destaque y logre un mayor posicionamiento.</p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step-marker">04</div>
-            <div class="step-content">
-              <h3>Ejecución Articulada</h3>
-              <p>Con la estrategia como guía, activamos nuestros tres pilares:</p>
-              <ul>
-                <li><strong class="text-accent-dark">Diseño:</strong> Creamos una identidad que sea la base de la memoria de tu cliente y una interfaz (UI/UX) optimizada para la conversión.</li>
-                <li><strong class="text-accent-dark">Código:</strong> Desarrollamos el motor tecnológico —ya sea web, apps o e-commerce en Shopify— que permite que tu negocio no quede rezagado.</li>
-                <li><strong class="text-accent-dark">Contenido:</strong> Generamos grandes ideas que dan visibilidad y "sabor" a tu marca, impactando directamente en los resultados de negocio.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      <h2>1. Información que recopilamos</h2>
+      
+      <h3>1.1 Información que nos proporcionas</h3>
+      <p>Cuando te pones en contacto con nosotros a través de nuestro formulario de contacto o por correo electrónico, recopilamos:</p>
+      <ul>
+        <li>Nombre completo</li>
+        <li>Dirección de correo electrónico</li>
+        <li>Mensaje o consulta que nos envías</li>
+        <li>Cualquier otra información que decidas compartir voluntariamente</li>
+      </ul>
 
-    <!-- ─── Manifiesto ─── -->
-    <section class="manifiesto">
-      <div class="container">
-        <span class="badge">Manifiesto</span>
-        <p class="manifiesto-quote">
-          «Creemos que la presencia digital no es el resultado del azar, sino de una construcción arquitectónica deliberada. Nuestro enfoque diferenciador coloca la estrategia de posicionamiento digital como el eje central que articula cada una de nuestras piezas»
-        </p>
-      </div>
-    </section>
+      <h3>1.2 Información recopilada automáticamente</h3>
+      <p>Cuando visitas nuestro sitio web, podemos recopilar automáticamente cierta información, incluyendo:</p>
+      <ul>
+        <li>Dirección IP</li>
+        <li>Tipo de navegador y versión</li>
+        <li>Sistema operativo</li>
+        <li>Páginas visitadas y tiempo de permanencia</li>
+        <li>Fuente de referencia (cómo llegaste a nuestro sitio)</li>
+      </ul>
 
-    <!-- ─── Proyectos ─── -->
-    <!-- <section class="proyectos" id="proyectos">
-      <div class="container">
-        <div class="section-header">
-          <span class="badge">03 — Proyectos</span>
-          <h2>Trabajo seleccionado</h2>
-        </div>
-        <div class="projects-grid">
-          <article class="project-card">
-            <div class="project-placeholder">Proyecto 01</div>
-            <div class="project-card-content">
-              <span class="badge">Identidad & Web</span>
-              <h3>Marca Editorial</h3>
-              <p>Sistema de diseño y sitio web para editorial independiente.</p>
-            </div>
-          </article>
-          <article class="project-card">
-            <div class="project-placeholder">Proyecto 02</div>
-            <div class="project-card-content">
-              <span class="badge">App & Contenido</span>
-              <h3>Plataforma Cultural</h3>
-              <p>Aplicación web y estrategia de contenido para espacio cultural.</p>
-            </div>
-          </article>
-          <article class="project-card">
-            <div class="project-placeholder">Proyecto 03</div>
-            <div class="project-card-content">
-              <span class="badge">Diseño de producto</span>
-              <h3>Herramienta SaaS</h3>
-              <p>Diseño de interfaz y prototipado para herramienta de productividad.</p>
-            </div>
-          </article>
-          <article class="project-card">
-            <div class="project-placeholder">Proyecto 04</div>
-            <div class="project-card-content">
-              <span class="badge">Web & Estrategia</span>
-              <h3>Estudio Arquitectura</h3>
-              <p>Sitio web y narrativa visual para estudio de arquitectura.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section> -->
+      <h2>2. Cómo utilizamos tu información</h2>
+      <p>Utilizamos la información recopilada para los siguientes propósitos:</p>
+      <ul>
+        <li><strong>Responder a tus consultas:</strong> Para comunicarnos contigo y responder a tus preguntas o solicitudes de información sobre nuestros servicios.</li>
+        <li><strong>Mejorar nuestros servicios:</strong> Para entender mejor cómo los usuarios interactúan con nuestro sitio web y mejorar la experiencia del usuario.</li>
+        <li><strong>Comunicaciones de marketing:</strong> Con tu consentimiento previo, podemos enviarte información sobre nuestros servicios, proyectos y novedades (puedes darte de baja en cualquier momento).</li>
+        <li><strong>Cumplimiento legal:</strong> Para cumplir con las obligaciones legales aplicables y proteger nuestros derechos legales.</li>
+      </ul>
 
-    <!-- ─── Contacto ─── -->
-    <section class="contacto" id="contacto">
-      <div class="container">
-        <div class="contacto-info">
-          <div class="section-header">
-            <span class="badge">04 — Contacto</span>
-            <h2>Empecemos algo juntos</h2>
-          </div>
-          <p>
-            ¿Tienes un proyecto en mente? Nos encanta escuchar ideas nuevas.
-            Cuéntanos qué necesitas y encontramos la mejor forma de ayudarte.
-          </p>
-          <div class="contacto-links">
-            <a href="mailto:hola@gramatik.studio">hola@gramatik.studio</a>
-            <a href="https://instagram.com/gramatik.studio" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="#">LinkedIn</a>
-          </div>
-        </div>
-        <form class="contact-form" action="https://formgrid.dev/api/f/khkmq9gj" method="POST" id="contact-form">
-          <div class="form-group">
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Correo electrónico</label>
-            <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
-          </div>
-          <div class="form-group">
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos sobre tu proyecto…" required></textarea>
-          </div>
-          <button type="submit" class="button">
-            Enviar mensaje
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-          </button>
-        </form>
-      </div>
-    </section>
+      <h2>3. Cómo compartimos tu información</h2>
+      <p>
+        En GramatiK, no vendemos ni alquilamos tu información personal a terceros. 
+        Solo compartimos tu información en las siguientes circunstancias:
+      </p>
+      <ul>
+        <li><strong>Con proveedores de servicios:</strong> Podemos compartir información con proveedores de servicios de confianza que nos ayudan a operar nuestro sitio web y prestar nuestros servicios (por ejemplo, servicios de hosting, análisis web).</li>
+        <li><strong>Por requerimientos legales:</strong> Si es necesario para cumplir con la ley, una orden judicial o un proceso legal.</li>
+        <li><strong>Con tu consentimiento:</strong> En cualquier otro caso, solo compartiremos tu información con tu consentimiento explícito.</li>
+      </ul>
 
+      <h2>4. Cookies y tecnologías similares</h2>
+      <p>
+        Utilizamos cookies y tecnologías similares para mejorar tu experiencia en nuestro sitio web. 
+        Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas un sitio web.
+      </p>
+      <p>Utilizamos cookies para:</p>
+      <ul>
+        <li>Recordar tus preferencias</li>
+        <li>Analizar el tráfico y el uso del sitio web</li>
+        <li>Personalizar el contenido</li>
+      </ul>
+      <p>
+        Puedes configurar tu navegador para rechazar cookies o para que te avise cuando se envíen cookies. 
+        Sin embargo, algunas funciones del sitio pueden no funcionar correctamente si desactivas las cookies.
+      </p>
+
+      <h2>5. Seguridad de la información</h2>
+      <p>
+        Implementamos medidas de seguridad técnicas y organizativas apropiadas para proteger tu información 
+        personal contra el acceso no autorizado, la alteración, divulgación o destrucción. Sin embargo, ningún 
+        método de transmisión por Internet o de almacenamiento electrónico es 100% seguro.
+      </p>
+
+      <h2>6. Retención de datos</h2>
+      <p>
+        Conservamos tu información personal solo durante el tiempo necesario para cumplir con los propósitos 
+        descritos en esta Política de Privacidad, a menos que la ley requiera o permita un período de retención más largo.
+      </p>
+
+      <h2>7. Tus derechos</h2>
+      <p>De acuerdo con la legislación aplicable, tienes los siguientes derechos:</p>
+      <ul>
+        <li><strong>Acceso:</strong> Puedes solicitar una copia de tu información personal que tenemos.</li>
+        <li><strong>Rectificación:</strong> Puedes solicitar que corrijamos información inexacta o incompleta.</li>
+        <li><strong>Eliminación:</strong> Puedes solicitar que eliminemos tu información personal en ciertas circunstancias.</li>
+        <li><strong>Limitación:</strong> Puedes solicitar que limitemos el procesamiento de tu información personal.</li>
+        <li><strong>Oposición:</strong> Puedes oponerte al procesamiento de tu información personal para ciertos propósitos.</li>
+        <li><strong>Portabilidad:</strong> Puedes solicitar recibir tu información personal en un formato estructurado y de uso común.</li>
+      </ul>
+      <p>
+        Para ejercer cualquiera de estos derechos, contáctanos en 
+        <a href="mailto:hola@gramatik.studio">hola@gramatik.studio</a>.
+      </p>
+
+      <h2>8. Enlaces a sitios de terceros</h2>
+      <p>
+        Nuestro sitio web puede contener enlaces a sitios web de terceros. No somos responsables de las 
+        prácticas de privacidad de estos sitios. Te recomendamos que revises las políticas de privacidad 
+        de cualquier sitio web de terceros que visites.
+      </p>
+
+      <h2>9. Menores de edad</h2>
+      <p>
+        Nuestros servicios no están dirigidos a menores de 18 años. No recopilamos conscientemente información 
+        personal de menores. Si descubrimos que hemos recopilado información de un menor sin el consentimiento 
+        parental apropiado, tomaremos medidas para eliminar esa información.
+      </p>
+
+      <h2>10. Cambios a esta política</h2>
+      <p>
+        Nos reservamos el derecho de actualizar esta Política de Privacidad en cualquier momento. 
+        Los cambios se publicarán en esta página con la fecha de "Última actualización" revisada. 
+        Te recomendamos que revises esta política periódicamente.
+      </p>
+
+      <h2>11. Contacto</h2>
+      <p>
+        Si tienes preguntas, comentarios o inquietudes sobre esta Política de Privacidad o sobre nuestras 
+        prácticas de privacidad, por favor contáctanos:
+      </p>
+      <p>
+        <strong>GramatiK</strong><br>
+        Correo electrónico: <a href="mailto:hola@gramatik.studio">hola@gramatik.studio</a>
+      </p>
+    </div>
   </main>
 
   <!-- ─── Footer ─── -->
@@ -315,29 +296,6 @@
         navLinks.classList.remove('active');
         toggle.setAttribute('aria-expanded', 'false');
       });
-    });
-  </script>
-
-  <script>
-    const form = document.getElementById('contact-form');
-
-    form.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const formData = new FormData(form);
-        
-        try {
-            const response = await fetch('https://formgrid.dev/api/f/khkmq9gj', {
-                method: 'POST',
-                body: formData
-            });
-            
-            if (response.ok) {
-                alert('Form submitted successfully!');
-                form.reset();
-            }
-        } catch (error) {
-            alert('Error submitting form');
-        }
     });
   </script>
 

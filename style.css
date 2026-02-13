@@ -90,12 +90,24 @@ h1 {
 h2 { font-size: clamp(2rem, 4vw, 3.2rem); }
 h3 { font-size: clamp(1.4rem, 2.5vw, 1.8rem); }
 
-p {
+p, ul, ol {
   font-family: var(--font-mono);
   font-size: 0.875rem;
   font-weight: 300;
   line-height: 1.75;
   color: var(--color-text-secondary);
+}
+
+ul { 
+  list-style-type: none;
+}
+
+p {
+  margin-bottom: var(--space-sm);
+}
+
+li {
+  margin-bottom: var(--space-xs);
 }
 
 .badge {
@@ -154,6 +166,14 @@ p {
   background-color: var(--color-accent);
   color: var(--color-primary);
   border: 0 none;
+}
+
+.text-accent-light {
+  color: var(--color-accent);
+}
+
+.text-accent-dark {
+  color: var(--color-primary);
 }
 
 /* ───────────────────────────────
@@ -342,8 +362,10 @@ section {
 
 .hero-description {
   color: var(--color-surface);
-  max-width: 520px;
+  max-width: 600px;
   margin-bottom: var(--space-lg);
+  /* background-color: var(--color-accent);
+  color: var(--color-primary-dark); */
 }
 
 .scroll-hint {
@@ -398,7 +420,7 @@ section {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: var(--space-md);
 }
 
@@ -430,6 +452,13 @@ section {
 .service-card h3 {
   color: var(--color-primary);
   margin-bottom: var(--space-sm);
+}
+
+.service-card h4 {
+  display: inline-block;
+  background-color: var(--color-accent);
+  font-family: var(--font-mono);
+  color: var(--color-primary-dark);
 }
 
 .service-card p {
@@ -485,12 +514,12 @@ section {
   margin-bottom: 0.3rem;
 }
 
-.step-content p {
-  font-size: 0.8rem;
+.step-content p, ul {
+  font-size: 0.85rem;
 }
 
 /* ───────────────────────────────
-   Manifiesto (Manifesto)
+  Manifiesto (Manifesto)
 ─────────────────────────────── */
 .manifiesto {
   background-color: var(--color-primary);
